@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Animals</title>
+    <link rel="stylesheet" type="text/css" href="../bootstrap-5/css/bootstrap.css">
+    <script type="text/javascript" src="../bootstrap-5/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-md-flex justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="animals_view_1_page.html">Animaux Domestiques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animals_view_2_page.html">Animaux Sauvages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="../index.html#getStarted"
+                            style="font-family: Berlin Sans FB Demi;" type="button">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="../img/chevre.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy"
+                    width="700" height="500">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Animaux Domestiques</h1>
+                <p class="lead">Ici vous découvrirez et en apprendre plus sur tous les animaux domestiques en fonction
+                    de leur race.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="#domestiques" type="button" class="btn btn-primary btn-lg px-4 me-md-2">Commencer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-md-center" id="domestiques">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item active" role="presentation">
+                <button class="btn btn-primary m-2" id="chiens-tab" data-bs-toggle="tab" data-bs-target="#chiens"
+                    type="button" role="tab" aria-controls="chiens" aria-selected="true">Chiens
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-primary m-2" id="chats-tab" data-bs-toggle="tab" data-bs-target="#chats"
+                    type="button" role="tab" aria-controls="chats" aria-selected="false">Chats
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-primary m-2" id="canards-tab" data-bs-toggle="tab" data-bs-target="#canards"
+                    type="button" role="tab" aria-controls="canards" aria-selected="false">Canards
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-primary m-2">Chèvres</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-primary m-2">Moutons</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-primary m-2">Boeufs</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-primary m-2">Poules</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn btn-primary m-2">Chevaux</button>
+            </li>
+        </ul>
+    </nav>
+    <div class="tab-content" id="myTabContent">
+        <!-- Contents for dogs -->
+        <div class="tab-pane fade show active" id="chiens" role="tabpanel" aria-labelledby="chiens-tab">
+
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1 class="jumbotron-heading">Album Races de Chiens</h1>
+                    <p class="lead text-muted">Something short and leading about the collection below—its contents, the
+                        creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it
+                        entirely.</p>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="../img/poule.jpg" data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3 class="">Australian Terrier</h3>
+                                    <p class="card-text">Toujours sûr de lui, l’australian terrier n’est guère complexé
+                                        par
+                                        sa taille. Pourtant, il ne mesure que 25 cm au garrot et pèse rarement plus de 5
+                                        kilos.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c3%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c3%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Azawakh</h3>
+                                    <p class="card-text">De tous les lévriers, l’azawakh est sans aucun doute le plus
+                                        original. Long, fin et racé, il a en plus ce petit quelque chose qui le rend
+                                        hors du
+                                        commun.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c5%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c5%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Bedlington terrier</h3>
+                                    <p class="card-text">D’origine anglaise, le bedlington surprend d’abord par son
+                                        physique. La forme de sa tête le fait ressembler à un mouton et son poil
+                                        bouclé... à
+                                        un caniche. Lorsqu’il court, la courbe de ses reins et la longueur de ses
+                                        membres
+                                        lui donnent alors l’allure d’un lévrier !</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c6%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c6%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Berger allemand</h3>
+                                    <p class="card-text">D’abord destiné à garder les troupeaux, il a su changer de
+                                        «métier»
+                                        grâce à de grandes aptitudes au pistage, à son obéissance innée et à un immense
+                                        courage. C’est aussi un excellent compagnon.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c7%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c7%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Berger de Beauce</h3>
+                                    <p class="card-text">Aussi connu sous le nom de beauceron ou de bas-rouge, ce
+                                        superbe
+                                        chien rustique, né pour le travail, a si belle allure que Colette l’avait
+                                        surnommé «
+                                        le gentilhomme campagnard ».</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c9%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c9%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Bergers belges</h3>
+                                    <p class="card-text">Gardiens hors pair, les bergers belges sont des compagnons
+                                        remarquables à bien des égards. Cependant, seul un maître averti peut leur
+                                        permettre
+                                        d’exprimer pleinement leurs nombreuses qualités.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3ca%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3ca%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Boston terrier</h3>
+                                    <p class="card-text">Le boston terrier fait partie des chiens créés par les
+                                        Américains.
+                                        Particulièrement apprécié comme chien de compagnie en France dans les années
+                                        trente,
+                                        il y est maintenant nettement moins répandu.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3cb%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3cb%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Boxer</h3>
+                                    <p class="card-text">Créée outre-Rhin, le boxer est une race appréciée en France.
+                                        Qu’il
+                                        monte la garde ou tienne compagnie, il s’acquitte de sa tâche avec zèle et
+                                        gentillesse.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3cd%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3cd%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Bull-terrier</h3>
+                                    <p class="card-text">Doté d’un physique pour le moins étonnant, le bull-terrier a de
+                                        plus en plus d’amateurs en France. A cause de son caractère pas toujours facile,
+                                        on
+                                        dit parfois que c’est un chien à ne pas mettre entre toutes les mains.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Contents for cats -->
+        <div class="tab-pane fade" id="chats" role="tabpanel" aria-labelledby="chats-tab">
+
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1 class="jumbotron-heading">Album Races de Chats</h1>
+                    <p class="lead text-muted">Something short and leading about the collection below—its contents, the
+                        creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it
+                        entirely.</p>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="../img/poule.jpg" data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3 class="">Bleu russe</h3>
+                                    <p class="card-text">De ce chat aux yeux verts se dégage un charme auquel on ne peut
+                                        rester insensible très longtemps. Longiligne et gracieux, il porte une robe d’un
+                                        bleu gris clair avec des reflets argent, semblables à de la neige.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c3%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c3%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Bobtail japonais</h3>
+                                    <p class="card-text">A première vue, c’est un chat sans grande originalité. En y
+                                        regardant de plus près, on se rend compte qu’il possède une queue bizarre
+                                        repliée sur elle-même. Au Japon, on la compare à une fleur de chrysanthème.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c5%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c5%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Chartreux</h3>
+                                    <p class="card-text">Même s’il ne doit pas grand chose à l’ordre des Chartreux, ce
+                                        superbe chat gris à la robe laineuse, très populaire dans l’Hexagone, est
+                                        typiquement français. L’élevage a commencé vraiment au début du 20e siècle grâce
+                                        à deux éleveuses bretonnes, les demoiselles Léger.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c6%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c6%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Devon rex</h3>
+                                    <p class="card-text">Anglais, original et sophistiqué, le devon rex est, comme les
+                                        autres chats de type rex, couvert d’un pelage ras et frisé. Encore peu répandu
+                                        en France, il y rencontre cependant un beau succès de curiosité dans les
+                                        expositions félines.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c7%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c7%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Européen</h3>
+                                    <p class="card-text">Reconnue comme une race à part entière en 1982, certains voient
+                                        même en lui le gouttière « idéal ». Il a conquis ses quartiers de noblesse et
+                                        figure aujourd’hui dans toutes les expositions félines sous le nom d’européen.
+                                    </p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c9%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c9%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Exotic shorthair</h3>
+                                    <p class="card-text">Doublure parfaite du persan mais à poil court, l'exotic
+                                        shorthair en possède la corpulence robuste. Très répandue aux Etats-Unis, cette
+                                        race trouve de plus en plus d’adeptes en Europe.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3ca%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3ca%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Havana</h3>
+                                    <p class="card-text">Originaire d’Asie du Sud-Est, l’apparition du havana, appelé
+                                        aussi havana brown ou chestnut havana, remonte au début du 20e siècle. Certains
+                                        pensent que son nom lui vient de sa couleur qui évoque un bon cigare cubain.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3cb%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3cb%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Munchkin cat</h3>
+                                    <p class="card-text">En France, la première apparition de ce chat d’origine
+                                        américaine remonte à une quinzaine d’années. Le munchkin cat est issu d’une
+                                        mutation génétique spontanée. Les premiers chatons à pattes courtes sont apparus
+                                        de manière naturelle dans une portée.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3cd%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3cd%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Scottish fold</h3>
+                                    <p class="card-text">Mais non, le scottish fold n’est pas plus malheureux qu’un
+                                        autre ! Ce petit air triste, il le doit à la forme de ses oreilles. Une façon
+                                        comme une autre d’obtenir tout ce que l’on veut sans rien demander ...</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Contents for ducks -->
+        <div class="tab-pane fade" id="canards" role="tabpanel" aria-labelledby="canards-tab">
+
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1 class="jumbotron-heading">Album Races de Canards</h1>
+                    <p class="lead text-muted">Something short and leading about the collection below—its contents, the
+                        creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it
+                        entirely.</p>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-light">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="../img/poule.jpg" data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3 class="">Australian Terrier</h3>
+                                    <p class="card-text">Toujours sûr de lui, l’australian terrier n’est guère complexé
+                                        par
+                                        sa taille. Pourtant, il ne mesure que 25 cm au garrot et pèse rarement plus de 5
+                                        kilos.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c3%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c3%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Azawakh</h3>
+                                    <p class="card-text">De tous les lévriers, l’azawakh est sans aucun doute le plus
+                                        original. Long, fin et racé, il a en plus ce petit quelque chose qui le rend
+                                        hors du
+                                        commun.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c5%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c5%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Bedlington terrier</h3>
+                                    <p class="card-text">D’origine anglaise, le bedlington surprend d’abord par son
+                                        physique. La forme de sa tête le fait ressembler à un mouton et son poil
+                                        bouclé... à
+                                        un caniche. Lorsqu’il court, la courbe de ses reins et la longueur de ses
+                                        membres
+                                        lui donnent alors l’allure d’un lévrier !</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c6%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c6%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Berger allemand</h3>
+                                    <p class="card-text">D’abord destiné à garder les troupeaux, il a su changer de
+                                        «métier»
+                                        grâce à de grandes aptitudes au pistage, à son obéissance innée et à un immense
+                                        courage. C’est aussi un excellent compagnon.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c7%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c7%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Berger de Beauce</h3>
+                                    <p class="card-text">Aussi connu sous le nom de beauceron ou de bas-rouge, ce
+                                        superbe
+                                        chien rustique, né pour le travail, a si belle allure que Colette l’avait
+                                        surnommé «
+                                        le gentilhomme campagnard ».</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3c9%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3c9%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Bergers belges</h3>
+                                    <p class="card-text">Gardiens hors pair, les bergers belges sont des compagnons
+                                        remarquables à bien des égards. Cependant, seul un maître averti peut leur
+                                        permettre
+                                        d’exprimer pleinement leurs nombreuses qualités.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3ca%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3ca%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Boston terrier</h3>
+                                    <p class="card-text">Le boston terrier fait partie des chiens créés par les
+                                        Américains.
+                                        Particulièrement apprécié comme chien de compagnie en France dans les années
+                                        trente,
+                                        il y est maintenant nettement moins répandu.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3cb%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3cb%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Boxer</h3>
+                                    <p class="card-text">Créée outre-Rhin, le boxer est une race appréciée en France.
+                                        Qu’il
+                                        monte la garde ou tienne compagnie, il s’acquitte de sa tâche avec zèle et
+                                        gentillesse.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                                    alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_185f24fe3cd%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_185f24fe3cd%22%3E%3Crect%20width%3D%22348%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.68333435058594%22%20y%3D%22120.3%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                    data-holder-rendered="true">
+                                <div class="card-body">
+                                    <h3>Bull-terrier</h3>
+                                    <p class="card-text">Doté d’un physique pour le moins étonnant, le bull-terrier a de
+                                        plus en plus d’amateurs en France. A cause de son caractère pas toujours facile,
+                                        on
+                                        dit parfois que c’est un chien à ne pas mettre entre toutes les mains.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-muted">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-2">
+                    <h5>Domestiques</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chiens</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chats</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Boeufs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Chèvres</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Moutons</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h5>Sauvages</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mainfères</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Rapaces</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Félins</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Reptiles</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Amphibiens</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h5>Quiz</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Monde Sauvage</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Monde Aquatique</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tous les Animaux</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4 offset-1">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of whats new and exciting from us.</p>
+                        <div class="d-flex w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>© 2023 Animals World Wide, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="link-dark" href="#">
+                            <svg class="bi" width="24" height="24">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="link-dark" href="#">
+                            <svg class="bi" width="24" height="24">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="ms-3">
+                        <a class="link-dark" href="#">
+                            <svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
