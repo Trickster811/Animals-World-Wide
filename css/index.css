@@ -1,0 +1,27 @@
+.carousel-caption-3 {
+    top: 0;
+    left: 0;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+}
+.carousel-caption-2 {
+    top: 0;
+    left: 0;
+    margin-left: 25px;
+    text-align: left;
+        bottom: auto;
+}
+.carousel-caption-1 {
+      position: absolute;
+      margin-left: 25px;
+      bottom: 0;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: left;
+}
+
+button [type=button]{
+    font-family: Berlin Sans FB Demi;
+}
